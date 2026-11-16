@@ -3,4 +3,4 @@ FROM ratings
 GROUP BY movie_id
 HAVING COUNT(*) > 100
 ORDER BY avg_rating DESC
-LIMIT 10;
+LIMIT 20;
